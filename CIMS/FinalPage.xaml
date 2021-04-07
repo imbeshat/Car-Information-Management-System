@@ -1,0 +1,51 @@
+﻿<Window x:Class="CIMS.FinalPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CIMS"
+        mc:Ignorable="d" 
+        Title="FinalPage" Height="750" Width="1180.601">
+    <Grid Margin="0,0,3,3">
+        <Label x:Name="lblname" Content="Model Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,41,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblManufacterer" Content="Manufacturer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,79,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblType" Content="Car Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,117,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblEngine" Content="Engine" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,153,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblBHP" Content="BHP" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,189,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblTransmissionType" Content="Transmission Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,225,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblMileage" Content="Mileage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,263,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblSeat" Content="Seat" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,301,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblAirbagDetails" Content="Airbag Details" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,339,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblBootspace" Content="Bootspace" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,379,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lblprice" Content="Price" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,419,0,0" Width="163" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtmodel" HorizontalAlignment="Left" Height="31" Margin="239,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtEngine" HorizontalAlignment="Left" Height="31" Margin="239,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtBHP" HorizontalAlignment="Left" Height="31" Margin="239,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtMileage" HorizontalAlignment="Left" Height="31" Margin="239,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtSeat" HorizontalAlignment="Left" Height="31" Margin="239,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtAirbagDetails" HorizontalAlignment="Left" Height="31" Margin="239,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtBootspace" HorizontalAlignment="Left" Height="31" Margin="239,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="31" Margin="239,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="16"/>
+        <Button x:Name="btnAdd" Content="ADD" HorizontalAlignment="Left" Margin="81,544,0,0" VerticalAlignment="Top" Width="92" Height="37" FontSize="16" FontWeight="Bold" Click="BtnAdd_Click"/>
+        <Button x:Name="btnSearch" Content="SEARCH" HorizontalAlignment="Left" Margin="209,544,0,0" VerticalAlignment="Top" Width="92" Height="37" FontSize="16" FontWeight="Bold" Click="BtnSearch_Click"/>
+        <Button x:Name="btnUpdate" Content="UPDATE" HorizontalAlignment="Left" Margin="325,544,0,0" VerticalAlignment="Top" Width="92" Height="37" FontSize="16" FontWeight="Bold" Click="BtnUpdate_Click"/>
+        <Button x:Name="btnDelete" Content="DELETE" HorizontalAlignment="Left" Margin="453,544,0,0" VerticalAlignment="Top" Width="92" Height="37" FontSize="16" FontWeight="Bold" Click="BtnDelete_Click"/>
+        <Button x:Name="btnHome" Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Width="84" Margin="1056,617,0,0" Height="36" Click="btnHome_Click" FontWeight="Bold" FontSize="18"/>
+
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="269,616,0,0" Height="36" Click="btnClear_Click" FontWeight="Bold" FontSize="18"/>
+        <GroupBox Header="Car Information" HorizontalAlignment="Left" Height="526" VerticalAlignment="Top" Width="609" Margin="10,10,0,0">
+
+        </GroupBox>
+        <DataGrid x:Name="dgManType" HorizontalAlignment="Left" Height="370" Margin="631,41,0,0" VerticalAlignment="Top" Width="515"/>
+        <Label x:Name="lblManName" Content="Enter Manufacturer Name" HorizontalAlignment="Left" Margin="655,449,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblTypeName" Content="Enter Car Type" HorizontalAlignment="Left" Margin="655,495,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnManufacturer" Content="Display Car by Manufacturer and Type" HorizontalAlignment="Left" Margin="714,544,0,0" VerticalAlignment="Top" Width="268" Height="47" Click="btnManufacturer_Click" FontWeight="Bold"/>
+        <ComboBox x:Name="cmbManufacturer" HorizontalAlignment="Left" DisplayMemberPath="ID" Margin="240,85,0,0" VerticalAlignment="Top" Width="161" ItemsSource="{Binding}" SelectedValuePath="Name"/>
+        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" DisplayMemberPath="ID" Margin="240,121,0,0" VerticalAlignment="Top" Width="161" ItemsSource="{Binding}" SelectedValuePath="Type"/>
+        <ComboBox x:Name="cmbTransmission" HorizontalAlignment="Left" DisplayMemberPath="ID" Margin="240,231,0,0" VerticalAlignment="Top" Width="161" ItemsSource="{Binding}" SelectedValuePath="Name"/>
+        <ComboBox x:Name="cmbManufacturersearch" HorizontalAlignment="Left" DisplayMemberPath="ID" Margin="855,457,0,0" VerticalAlignment="Top" Width="161" ItemsSource="{Binding}" SelectedValuePath="Name"/>
+        <ComboBox x:Name="cmbTypesearch" HorizontalAlignment="Left" DisplayMemberPath="ID" Margin="855,499,0,0" VerticalAlignment="Top" Width="161" ItemsSource="{Binding}" SelectedValuePath="Type"/>
+        <Button x:Name="btnAddManufacturer" Content="Add Manufacturer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="181" Margin="849,617,0,0" Height="36" FontWeight="Bold" FontSize="18" Click="BtnAddManufacturer_Click"/>
+
+    </Grid>
+</Window>

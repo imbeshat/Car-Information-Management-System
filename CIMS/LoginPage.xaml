@@ -1,0 +1,21 @@
+﻿<Window x:Class="CIMS.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CIMS"
+        mc:Ignorable="d"
+        Title="LoginPage" Height="450" Width="800">
+    <Grid Margin="0,0,0.333,-0.333">
+        <Label x:Name="lblUsername" Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="144,95,0,0" Width="93" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="lbPwd" Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="144,157,0,0" Width="93" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtName" Margin="314,95,281.333,293.667" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontSize="16"/>
+        <PasswordBox x:Name="pwdPassword" HorizontalAlignment="Left" Margin="314,157,0,0" VerticalAlignment="Top" Height="31" Width="198"/>
+        <Button x:Name="btnlogin" Content="Login" HorizontalAlignment="Left" Margin="263,223,0,0" VerticalAlignment="Top" Width="116" Height="37" FontWeight="Bold" FontSize="16" Click="Btnlogin_Click"/>
+        <Label x:Name="lbltitle" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="299,20,0,0" Width="133" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnfgpwd" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Content="Forgot Password ?" HorizontalAlignment="Left" Margin="257,264,0,0" VerticalAlignment="Top" Width="129" Height="30" Background="#FFFEFEFE" Foreground="#FF270CE4" FontWeight="Bold" FontStyle="Italic" Padding="0" Click="Btnfgpwd_Click" FontSize="14"/>
+        <Button x:Name="btnregtd" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Content="Register here " HorizontalAlignment="Left" Margin="615,56,0,0" VerticalAlignment="Top" Width="138" Height="30" Background="#FFFEFEFE" Foreground="#FFE4330C" FontWeight="Bold" FontStyle="Italic" Padding="0" Click="Btnregtd_Click" FontSize="16"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="477,223,0,0" Height="37" Click="btnBack_Click" FontWeight="Bold" FontSize="18"/>
+
+    </Grid>
+</Window>

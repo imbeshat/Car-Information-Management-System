@@ -1,0 +1,157 @@
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS.csprojResolveAssemblyReference.cache
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\FinalPage.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\LoginPage.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\MainWindow.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\RegisterPage.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\App.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS_Content.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.cache
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.lref
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\CIMS.exe.config
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\CIMS.exe
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\CIMS.pdb
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\EntityFramework.dll
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\EntityFramework.xml
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\FinalPage.baml
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\LoginPage.baml
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\MainWindow.baml
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\RegisterPage.baml
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS.g.resources
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS.Properties.Resources.resources
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS.csproj.GenerateResource.Cache
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS.exe
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\CIMS.pdb
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\Customer.g.cs
+c:\users\new u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\Customer.baml
+C:\Users\nEW u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\ForgotPasswordPage.g.cs
+C:\Users\nEW u\documents\visual studio 2017\Projects\CIMS\CIMS\obj\Debug\ForgotPasswordPage.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\CIMS.exe.config
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\CIMS.exe
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\CIMS.pdb
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.dll
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.xml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.csprojAssemblyReference.cache
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\Customer.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\FinalPage.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\ForgotPasswordPage.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\LoginPage.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\MainWindow.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\RegisterPage.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\App.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS_Content.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.cache
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.lref
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\Customer.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\FinalPage.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\ForgotPasswordPage.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\LoginPage.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\MainWindow.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\RegisterPage.baml
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.g.resources
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.Properties.Resources.resources
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.csproj.GenerateResource.cache
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.csproj.CoreCompileInputs.cache
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.csproj.CopyComplete
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.exe
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\CIMS.pdb
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\AddManufacturer.g.cs
+C:\Users\Shivam\Downloads\CIMS\CIMS\CIMS\obj\Debug\AddManufacturer.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\CIMS.exe.config
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\CIMS.exe
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\CIMS.pdb
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.dll
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.xml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS.csprojResolveAssemblyReference.cache
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\AddManufacturer.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\Customer.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\FinalPage.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\ForgotPasswordPage.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\LoginPage.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\MainWindow.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\RegisterPage.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\App.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS_Content.g.cs
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.cache
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.lref
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\AddManufacturer.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\Customer.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\FinalPage.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\ForgotPasswordPage.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\LoginPage.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\MainWindow.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\RegisterPage.baml
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS.g.resources
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS.Properties.Resources.resources
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS.csproj.GenerateResource.Cache
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS.exe
+D:\Capgemini\Car Information Management System\CIMS\CIMS\CIMS\obj\Debug\CIMS.pdb
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\CIMS.exe.config
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\CIMS.exe
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\CIMS.pdb
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.dll
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.xml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.csprojResolveAssemblyReference.cache
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\AddManufacturer.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\Customer.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\FinalPage.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\ForgotPasswordPage.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\LoginPage.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\MainWindow.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\RegisterPage.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\App.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS_Content.g.cs
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.cache
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.lref
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\AddManufacturer.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\Customer.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\FinalPage.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\ForgotPasswordPage.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\LoginPage.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\MainWindow.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\RegisterPage.baml
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.g.resources
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.Properties.Resources.resources
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.csproj.GenerateResource.Cache
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.exe
+D:\Capgemini\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.pdb
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\CIMS.exe.config
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\CIMS.exe
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\CIMS.pdb
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.dll
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.xml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.csprojAssemblyReference.cache
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\AddManufacturer.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\Customer.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\FinalPage.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\ForgotPasswordPage.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\LoginPage.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\MainWindow.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\RegisterPage.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\App.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS_Content.g.cs
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.cache
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS_MarkupCompile.lref
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\AddManufacturer.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\Customer.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\FinalPage.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\ForgotPasswordPage.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\LoginPage.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\MainWindow.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\RegisterPage.baml
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.g.resources
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.Properties.Resources.resources
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.csproj.GenerateResource.cache
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.csproj.CoreCompileInputs.cache
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.csproj.CopyComplete
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.exe
+D:\Capgemini\Before Joining\Car Information Management System\Final Project\CIMS(Wpf Final)\CIMS\CIMS\obj\Debug\CIMS.pdb

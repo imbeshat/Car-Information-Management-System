@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CIMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ADMIN">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SecurityQuestion" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Response" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Model" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ManufacturerId" Type="Int32" />
+    <Property Name="TypeId" Type="Int32" />
+    <Property Name="Engine" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="BHP" Type="Int32" />
+    <Property Name="TransmissionId" Type="Int32" />
+    <Property Name="Mileage" Type="Int32" Nullable="false" />
+    <Property Name="Seat" Type="Int32" Nullable="false" />
+    <Property Name="AirBagDetails" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BootSpace" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="Manufacturer" Relationship="Self.FK__CAR__Manufacture__4316F928" FromRole="CAR" ToRole="Manufacturer" />
+    <NavigationProperty Name="CarTransmissionType" Relationship="Self.FK__CAR__Transmissio__45F365D3" FromRole="CAR" ToRole="CarTransmissionType" />
+    <NavigationProperty Name="CarType" Relationship="Self.FK__CAR__TypeId__440B1D61" FromRole="CAR" ToRole="CarType" />
+  </EntityType>
+  <EntityType Name="CarTransmissionType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CARs" Relationship="Self.FK__CAR__Transmissio__45F365D3" FromRole="CarTransmissionType" ToRole="CAR" />
+  </EntityType>
+  <EntityType Name="CarType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CARs" Relationship="Self.FK__CAR__TypeId__440B1D61" FromRole="CarType" ToRole="CAR" />
+  </EntityType>
+  <EntityType Name="Manufacturer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ContactPersonNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="RegisteredOffice" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CARs" Relationship="Self.FK__CAR__Manufacture__4316F928" FromRole="Manufacturer" ToRole="CAR" />
+  </EntityType>
+  <Association Name="FK__CAR__Manufacture__4316F928">
+    <End Role="Manufacturer" Type="Self.Manufacturer" Multiplicity="0..1" />
+    <End Role="CAR" Type="Self.CAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CAR">
+        <PropertyRef Name="ManufacturerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CAR__Transmissio__45F365D3">
+    <End Role="CarTransmissionType" Type="Self.CarTransmissionType" Multiplicity="0..1" />
+    <End Role="CAR" Type="Self.CAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarTransmissionType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CAR">
+        <PropertyRef Name="TransmissionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CAR__TypeId__440B1D61">
+    <End Role="CarType" Type="Self.CarType" Multiplicity="0..1" />
+    <End Role="CAR" Type="Self.CAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CAR">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CIMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ADMINs" EntityType="Self.ADMIN" />
+    <EntitySet Name="CARs" EntityType="Self.CAR" />
+    <EntitySet Name="CarTransmissionTypes" EntityType="Self.CarTransmissionType" />
+    <EntitySet Name="CarTypes" EntityType="Self.CarType" />
+    <EntitySet Name="Manufacturers" EntityType="Self.Manufacturer" />
+    <AssociationSet Name="FK__CAR__Manufacture__4316F928" Association="Self.FK__CAR__Manufacture__4316F928">
+      <End Role="Manufacturer" EntitySet="Manufacturers" />
+      <End Role="CAR" EntitySet="CARs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CAR__Transmissio__45F365D3" Association="Self.FK__CAR__Transmissio__45F365D3">
+      <End Role="CarTransmissionType" EntitySet="CarTransmissionTypes" />
+      <End Role="CAR" EntitySet="CARs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CAR__TypeId__440B1D61" Association="Self.FK__CAR__TypeId__440B1D61">
+      <End Role="CarType" EntitySet="CarTypes" />
+      <End Role="CAR" EntitySet="CARs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
